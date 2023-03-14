@@ -1,6 +1,7 @@
 import "./style.css";
 import {FaBars, FaTimes} from "react-icons/fa";
 import { useRef} from "react";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const navRef = useRef();
@@ -10,7 +11,7 @@ const Navbar = () => {
     }
   return (
     <header>
-      <h1><img></img></h1>
+      <img src="./assets/images/GiulianaPortfolio.jpg" width="250" height="290" className="header-img" alt="Giuliana Castillo" />
       <nav>
         <a href="/#">Home</a>
         <a href="/#">About</a>

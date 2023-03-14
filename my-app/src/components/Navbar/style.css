@@ -84,3 +84,11 @@ header.nav-btn {
 
    }
 }
+
+.header-img {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    border-radius: 50%;
+
+}
