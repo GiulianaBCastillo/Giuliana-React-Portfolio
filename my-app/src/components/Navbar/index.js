@@ -1,14 +1,21 @@
-import './style.css';
-import {useState} from 'react';
+import "./style.css";
+import { useState } from "react";
 
 const navBar = () => {
-    <nav>
+  return (
+    <header>
+      <h1>Logo</h1>
+      <nav>
+        <a href="/#">Home</a>
+        <a href="/#">About</a>
+        <a href="/#">Contact</a>
+        <a href="/#">Work</a>
         <ul>
-            <li>
-
-            </li>
+          <li></li>
         </ul>
-    </nav>
-}
+      </nav>
+    </header>
+  );
+};
 
 export default navBar;
