@@ -10,7 +10,7 @@ const Navbar = () => {
     }
   return (
     <header>
-      <h1>Logo</h1>
+      <h1><img></img></h1>
       <nav>
         <a href="/#">Home</a>
         <a href="/#">About</a>
