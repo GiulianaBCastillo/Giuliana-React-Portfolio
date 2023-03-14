@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+:root {
+    --mainColor: #f7baf5f8;
+    --mainColorLight: #f0cfeff8;
+    --secondaryColor: #fffffff8;
+    --textColor: #000000f8;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2 rem;
+    background-color: var(--mainColor);
+    color: var(--textColor);
+}
